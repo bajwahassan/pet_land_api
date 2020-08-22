@@ -1,24 +1,38 @@
 # Pet Land
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Pet Land is a Ruby on Rails backend  & React, Javascript frontend application. Here a user can see available pets, which they can buy by contacting the store. Users can also buy products(feature to be added).
 
-Things you may want to cover:
+## Installing
 
-* Ruby version
+Clone backend and frontend.
 
-* System dependencies
+## Getting started
 
-* Configuration
+To get started with the app, clone the repo and then install the dependencies:
+```
+$ bundle install
+```
 
-* Database creation
+Next, migrate the database:
+```
+$ rails db:migrate
+```
 
-* Database initialization
+Then in api directory, run the app in a local server:
+```
+$ rails s
+```
 
-* How to run the test suite
+Then in frontend directory, run the app in a local server:
+```
+$ yarn start
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+# Contributing
+This is an open source app, feel free to use it or suggest/add any features.
+Bug reports are welcome on GitHub at https://github.com/hbajwaa/pet_land_frontend.
 
-* Deployment instructions
+## License
 
-* ...
+This application is available as open source under the terms of MIT LICENSE. See
+[LICENSE](LICENSE) for more details.
