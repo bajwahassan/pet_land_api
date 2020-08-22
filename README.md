@@ -5,15 +5,19 @@ Pet Land is a Ruby on Rails backend  & React, Javascript frontend application. H
 ## Installing
 
 Clone backend and frontend.
+```
+$ git clone https://github.com/hbajwaa/pet_land_api
+$ git clone https://github.com/hbajwaa/pet_land_frontend
+```
 
 ## Getting started
 
-To get started with the app, clone the repo and then install the dependencies:
+To get started with the app, in api directory run:
 ```
 $ bundle install
 ```
 
-Next, migrate the database:
+Next, in api directory migrate the database:
 ```
 $ rails db:migrate
 ```
