@@ -31,6 +31,9 @@ Then in frontend directory, run the app in a local server:
 ```
 $ yarn start
 ```
+## Blog
+
+https://hbajwaa.github.io/react_redux_project
 
 # Contributing
 This is an open source app, feel free to use it or suggest/add any features.
